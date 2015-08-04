@@ -1,0 +1,11 @@
+<h2>Yummy Cakes</h2>
+<table class="table table-striped table-bordered">
+<tr>
+<th style="background: #ACB4AC">Cake Type</th>
+<th style="background: #EBF7EB">Cost</th>
+</tr>
+<tr ng-repeat="cake in cakes">
+<td>{{cake.name}}</td>
+<td>${{cake.price}}</td>
+</tr>
+</table>
